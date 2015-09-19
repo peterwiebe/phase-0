@@ -1,5 +1,5 @@
 
-![wireframe of website](/imgs/Wireframe.png)
+![wireframe of website](/week-2/imgs/Wireframe.png)
 
 * *Reflection*
 Thinking from a newbie's perspective the concept of design and user experience are an important thing to keep in mind when creating a digital product. For myself, this challenge should have been shorter than what I spent on it. Most of the time was spent figuring out how to use draw.io.
