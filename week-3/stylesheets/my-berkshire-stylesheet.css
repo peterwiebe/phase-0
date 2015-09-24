@@ -1,0 +1,163 @@
+* Display table when screen width = 800px **/
+@media (min-width: 50em) {
+  .row { width: 100%; display: table; table-layout: fixed; }
+  .col { display: table-cell; }
+}
+
+@media (max-width: 479px) {
+  .col {
+    width: 100% !important;
+  }
+}
+
+.col {
+  text-align:left;
+}
+
+html {
+  background-color: white;
+  color:navy;
+}
+
+summary {
+  padding-top: 0.6em;
+  text-decoration: underline;
+  color:red;
+  font-size: 1.5em;
+}
+
+small {
+  padding-bottom: 20px;
+}
+
+h1 {
+  font-size: 1.7em;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  display: inline-block;
+}
+
+h1::first-letter {
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 1em;
+  -webkit-margin-before: 1em;
+  -webkit-margin-after: 0em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  display: inline-block;
+}
+
+a{
+  color:purple;
+}
+
+a:visited {
+  color:red
+}
+
+li {
+  padding-top:2em;
+  padding-top:2em;
+}
+
+div.line
+{
+  clear:both;
+  width:100%;
+  background-color:#d1d1d1;
+  height:1px;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+.header {
+  text-align: center;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.alignCenter {
+  margin: auto;
+  padding: 10px;
+}
+
+.geico {
+  max-width: 600px;
+}
+
+.smallFont {
+  font-size:0.800em;
+  line-height:1.3em;
+}
+
+.listEntry {
+  text-decoration: underline;
+  font-size:1.5em;
+  line-height: 1.5em;
+}
+
+.listInfo {
+  text-decoration: none;
+  font-size:1.2em;
+  line-height: 1.2em;
+}
+
+.listMargins {
+  padding-left:8%;
+  padding-right:8%;
+}
+
+.contact {
+  font-size: 1.33em;
+}
+
+.adress {
+  font-size: 1.4em;
+  font-weight: bold;
+  padding-bottom: 0.6em;
+}
+
+
+
+/**
+ _____  _____
+(__  / (__  /
+  / /    / /
+ (__ \  (__ \
+ ___) ) ___) )
+(____(_|____/
+
+What is important to know when linking an external file (like a stylesheet) to an HTML file?
+********************************************************************************************
+Some things that one should be aware of when linking external files like (like stylesheets) is that you can use either absolute or relative links. It is also good practice to keep the links nested in the head tag (especially for stylesheets) so as not to force the browser to redraw the page.
+
+What tricks did you use to help you with positioning? How hard was it to get the site as you wanted it?
+*******************************************************************************************************
+We used @media in order to get screen width and draw 2 or one column referring to screen size.
+Positioning was not overly difficult, the most challenging aspect was having the two columns of list items but it didn't take us long to find ways to get it to mimic the original site.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+*************************************************************************
+Atomic classes, with em properties for both text-size and line-height, then classic color names.
+
+Did you modify the HTML to include classes or ids? If so, which did you chose and why? If you didn't, how would you know which one to add to your HTML?
+*******************************************************************************************************************************************************
+We incorporated Classes into our HTML, which was especially useful for the list items as they are all styled similarly.
+
+When you compared your site to the actual code base, which do you think had cleaner code that followed best practices and why?
+******************************************************************************************************************************
+Our site is cleaner for the following reasons:
+1. We used a layout based on a responsive column system, and adapts to lower resolution screens
+2. We dont use px properties in the css, making the site easier to maintain
+3. One of the big differences is that the Berkshire website was using inline CSS to style its page. This is generally frowned upon but their website only has one page so it is not as big of a deal.
+4. The original site uses tables instead of divs for the layout of the list items which means there is a fair bit more code (which ulitmately creates potential for more errors - Divs are more easily maintained).
+5. We added interactivity in the footer with the <summary> html5 tag for the legal disclaimer
+6. Any of oour style can be changed in two clicks and applied to the whole page from an external file.
+*
