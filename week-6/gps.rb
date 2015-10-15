@@ -55,3 +55,16 @@ p serving_size_calc("cookie", 10)
 p serving_size_calc("THIS IS AN ERROR", 5)
 
 #  Reflection
+=begin
+- What did you learn about making code readable by working on this challenge?
+    I learned that using ruby methods and cleaning up code blocks aren't the only way to make something more readable, changing variable names can help too if they aren't obviously clear or help to clarify what is going on.
+
+- Did you learn any new methods? What did you learn about them?
+    I didn't learn a new method but I did learn where to place ! to check for the opposite of something being true (before the if !inventory.has_key?). I guess that one thing that I learned about the to_s method was that the expression being calculated needs to be wrapped in parentheses.
+
+- What did you learn about accessing data in hashes?
+    I don't know if I really learned anything about accessing data in hashes in this challenge but I did use the has_key? method which checks the keys against another value. Hashes can be accessed very similarily to arrays using the bracket notation.
+
+- What concepts were solidified when working through this challenge?
+    Concepts that I feel stronger about include where to put the ! operator in a validity expression, how to access the values of a hash, how to iterate over a hash using the each method.
+=end
