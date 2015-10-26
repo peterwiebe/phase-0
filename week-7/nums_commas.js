@@ -40,7 +40,6 @@ function separateComma(number) {
   return commaNumber.reverse().join("");
 }
 
-
 console.log(separateComma(9007199254740991));
 // Your Own Tests (OPTIONAL)
 
