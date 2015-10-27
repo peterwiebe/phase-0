@@ -118,3 +118,19 @@ ticTacToe.pick(computer.computerPick(), computer);
 // ticTacToe.pick(computer.computerPick(), computer);
 // ticTacToe.pick("A1", human);
 // ticTacToe.pick(computer.computerPick(), computer);
+
+
+// ### REFLECTION ###
+/*
+- What was the most difficult part of this challenge?
+    Debugging JavaScript was the most difficult. I had errors but it was hard to figure out where they were coming from.
+
+- What did you learn about creating objects and functions that interact with one another?
+    I learned how to create a function inside of an object and how to use the this keyword to indicate variable selection. I definitely prefer how you define methods inside of objects in Ruby over JavaScript.
+
+- Did you learn about any new built-in methods you could use in your refactored solution? If so, what were they and how do they work?
+    I didn't end up refactoring because I ran out of time on my initial solution. If I had more time I would go through to see if there are any that I could use.
+
+- How can you access and manipulate properties of objects?
+    I use the dot notation to access properties. For example: player.wins returns the number of wins that player has. You can increment it by typing: player.wins += 1;.
+    */
