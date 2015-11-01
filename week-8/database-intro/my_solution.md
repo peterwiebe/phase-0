@@ -37,13 +37,13 @@
 ##RELEASE 7: Reflect
 
 **- What are databases for?**
-    Databases are used as a mechanism to store, retrieve, edit, and remove data.
+Databases are used as a mechanism to store, retrieve, edit, and remove data.
 
 **- What is a one-to-many relationship?**
-    A one-to-many relationship is a relationship between tables in a database where one record in a table can reference several records in another table.
+A one-to-many relationship is a relationship between tables in a database where one record in a table can reference several records in another table.
 
 **- What is a primary key? What is a foreign key? How can you determine which is which?**
-    A primary key is an unique identifier in a table for a given set of records. No primary key can be the same for any record.
+A primary key is an unique identifier in a table for a given set of records. No primary key can be the same for any record.
 
 **- How can you select information out of a SQL database? What are some general guidelines for that?**
-    You can select information from a SQL database by querying the database for whatever is you are looking for..
+You can select information from a SQL database by querying the database for whatever is you are looking for..
