@@ -1,10 +1,10 @@
 ##RELEASE 2: Create a One-to-one Schema
 
-![alt text](imgs\one-to-one.png "one-to-one relationship")
+![alt text](imgs/one-to-one.png "one-to-one relationship")
 
 ##RELEASE 4: Refactor
 
-![alt text](imgs\one-to-one.png "many-to-many relationship")
+![alt text](imgs/one-to-one.png "many-to-many relationship")
 
 ##RELEASE 6: Reflect
 
